@@ -26,16 +26,16 @@
 
         /* Iconos de luna y sol */
         .moon-icon, .sun-icon {
-            font-size: 24px;
-            margin: 0 10px;
+            font-size: 20px;
+            margin:  10px;
         }
 
         /* Estilo del interruptor */
         .theme-switch {
             position: relative;
             display: inline-block;
-            width: 60px;
-            height: 34px;
+            width: 50px;
+            height: 38px;
         }
 
         .theme-switch input {
@@ -53,19 +53,19 @@
             bottom: 0;
             background-color: #ccc;
             transition: 0.4s;
-            border-radius: 34px;
+            border-radius: 20px;
         }
 
         .slider:before {
             position: absolute;
             content: "";
-            height: 26px;
-            width: 26px;
-            left: 4px;
-            bottom: 4px;
+            height: 20px;
+            width: 20px;
+            left: 6px;
+            bottom: 6px;
             background-color: white;
             transition: 0.4s;
-            border-radius: 50%;
+            border-radius: 45%;
         }
 
         input:checked + .slider {
@@ -80,12 +80,12 @@
 <body class="light-mode">
     <!-- Interruptor de modo oscuro/claro -->
     <div class="theme-switch-wrapper">
-        <span class="sun-icon"></span>☀️</span>
+        <span class="sun-icon"></span> ☀️ </span>
         <label class="theme-switch" for="checkbox">
             <input type="checkbox" id="checkbox">
             <div class="slider round"></div>
         </label>
-        <span class="moon-icon">🌙</span>
+        <span class="moon-icon"> 🌙 </span>
     </div>
 
     <!-- Contenido de la página -->
